@@ -1,0 +1,17 @@
+language:
+    java
+    
+dist: trusty
+
+sudo:
+    false
+
+jdk:
+    - oraclejdk8
+    - oraclejdk9
+    - openjdk7
+
+matrix:
+    allow_failures:
+        - jdk: oraclejdk9
+ 
