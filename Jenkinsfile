@@ -4,7 +4,7 @@
 
 pipeline
 {
-    agent any
+    agent slave
     stages
     {
         stage( "Clean" )
